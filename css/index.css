@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Redressed&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Redressed&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+text{align-content: center;}
+body{background-color: #E4FFCB;text-align: center;}
+h1{font-family: 'Redressed', cursive;
+    color: rgb(245, 16, 245);
+    font-size: 200px; 
+    font-weight: 600;
+background-color: aquamarine;}
+h2{font-family: 'Redressed', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(135, 37, 226);
+    font-size: 80px;}
+p{font-family: 'Nunito', sans-serif;
+    font-family: 'Redressed', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;color: #d400f0 ;
+text-align: center;}
+h3{font-family: 'Redressed', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(135, 37, 226);
+    font-size: 60px;background-color: rgb(146, 223, 197);
+    padding:10px ;
+    margin: 20px}
+/*contacto-h5*/
+h5{font-family: 'Nunito', sans-serif;
+    font-family: 'Redressed', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(56, 4, 87);font-size: 25px;}
+span{font-style: oblique;}
+
+sup{color: rgb(137, 77, 233);}
+
+.bio{width: 1000px;
+background-color: bisque;
+margin: 35px auto;
+/*border-width: 4px;
+border-style: groove;
+border-color: #d400f0;*/
+padding: 30px 30px;
+border-radius: 20px;}
+
+p{text-align: center;}
+
+.escultura{color: rgb(88, 88, 233);
+font-style: oblique;
+font-weight: bold ;}
+
+.bio img{width: 500px;
+    height: auto;
+float: left;
+margin: 10px;
+padding: 10px;}
+
+.bio{box-shadow: 0px 0px 7px #000000;
+    display: flex;
+    background: rgba(1890,183, 107, 0.5);
+    justify-content:center;
+    align-items: flex-end;
+    margin: 40px auto;
+    padding: 30px;}
+
+.bio h3{border: #d400f0 groove; border-block-style:initial;block-size: 80px; padding: 5px 5px; }
+.bio p{padding: 2%;
+box-shadow:0px 0px 4px #E4FFCB;}
+
+.cajaprincipal{background-color: #b4d6ad;color: #ffffff;
+    width: 500px;
+    height: 1100px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 7px;
+box-shadow: 0px 0px 20px #000;
+overflow: hidden;}
+
+.encabezado{background-color: #ffffff;color: #000000;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px 0;;
+    }
+
+    .encabezado p,.cajaperfil p,.header2 p{text-align: center;}
+
+    .foto{width: 360px;
+        text-align: center;
+        margin: 20px 0px;
+        float: center;
+        }
+.foto img{width: 300px;
+        border: 5px solid #fff;
+         border-radius: 50%;}
+
+.cajaperfil:hover{transform: translateX(-450px);
+        transition: transform 2s linear 3s}
+        
+        .cajaperfil{width: 300px;
+            height: auto;
+            margin-right: 800px;
+            margin-left: 80px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;}
+        
+.cajaperfil img{width: 300px;
+    height: auto;}
+    
+.header2{width: 300px;
+    height: auto;
+    margin-right: 80px;
+        margin-top: 15px;
+        margin-left: 200px;
+        float: right;
+        }
+.header2 img{width: 300px;
+    height: auto;
+    border: 5px solid rgb(255, 255, 255); 
+    border-radius: 50%;}
+

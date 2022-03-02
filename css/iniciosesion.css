@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*font-family: 'Fredoka One', cursive;*/
+
+/*seudo clase de caracteristicas q se repiten*/
+:root{
+    --green-color:#3debd3;
+    --seco-color:#a0e97f;
+    --purple-color: rgb(117,41,149);
+    --bluem-color: #6043c9;
+    --darkblue-color:#1d02b9;
+    --white:#ffffff;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color:var(---darkblue-color);
+}
+
+p{
+    text-align: justify;
+}
+/* # para identificador, ese estilo para solo esa seccion*/
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-login h1{
+    text-align: center;
+}
+
+.form-login i{
+    color:var(--purple-color);
+    background-color: var(--green-color);
+    padding: 1rem 0.8em;
+    border-radius: 100%;
+    border: 4px solid var(--bluem-color);
+}
+
+.form-login{
+    margin-top: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 1px 1px 2px var(--darkblue-color);
+    background-color: var(--seco-color);
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-label{
+    font-weight: bold;
+}
+
+.form-input{
+    border: 3px solid var(---dark-color);
+    padding: 0.5rem;
+    outline: none;
+}
+.form-input:focus{
+    border:3px solid var(--blue-color)
+}
+.form-input::placeholder{
+    font-size:0.8rem;
+}
+
+.btn-azul,.btn-morado{
+    padding: 0.5 rem;
+    font-weight: 500;
+    border: none;
+    cursor:pointer;
+}
+.btn-azul{background-color: var(--darkblue-color);
+    color: #ffffff; 
+    }
+.btn-morado{background-color: var(--purple-color);
+    color:#ffffff;
+}
+
+.form-olvido{
+    text-align: center;
+    color: var(--blue-color);
+    font-size: 0.9rem;
+}
+
+.boton{width: 120px;
+    background-color: #2556f7;
+    color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 10px;
+   align-content: flex-end;
+    }
+
+
+.boton:hover{background-color:#ea00ff;
+transition-property: background-color;
+transition-duration: 3s;
+transition-timing-function: linear;
+transition-delay: 3s;}
